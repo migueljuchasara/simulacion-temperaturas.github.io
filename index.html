@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversión de Escalas de Temperatura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulación de Conversión de Temperaturas</h1>
+        <div class="input-section">
+            <label for="inputTemp">Temperatura:</label>
+            <input type="number" id="inputTemp" placeholder="Ingresa una temperatura">
+            <select id="scaleSelect">
+                <option value="C">Celsius (°C)</option>
+                <option value="F">Fahrenheit (°F)</option>
+                <option value="K">Kelvin (K)</option>
+                <option value="R">Rankine (°R)</option>
+                <option value="Re">Réaumur (°Re)</option>
+            </select>
+        </div>
+        <div class="results">
+            <h2>Resultados:</h2>
+            <p>Celsius: <span id="celsius">0</span> °C</p>
+            <p>Fahrenheit: <span id="fahrenheit">32</span> °F</p>
+            <p>Kelvin: <span id="kelvin">273.15</span> K</p>
+            <p>Rankine: <span id="rankine">491.67</span> °R</p>
+            <p>Réaumur: <span id="reaumur">0</span> °Re</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
